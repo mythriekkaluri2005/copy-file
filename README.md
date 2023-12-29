@@ -18,9 +18,11 @@ Run the program.
 ### Step 6: 
 Display the output.
 ## PROGRAM:
+```
+'''
 Developed by:Ekkaluri Mythri
 RegisterNumber: 23003922
-
+'''
 def copy(filename,newfile):
     with open(filename,'r') as fp:
         with open(newfile,'w') as fp1:
@@ -29,7 +31,7 @@ def copy(filename,newfile):
 filename=input("Enter an Existing File:")
 newfile=input("Enter a name for new file:")
 copy(filename,newfile)
-
+```
 ### OUTPUT:
 ![Screenshot 2023-12-29 105336](https://github.com/mythriekkaluri2005/copy-file/assets/150231422/ee84d4d2-9a06-45ab-bc25-57e347131fc1)
 ![Screenshot 2023-12-29 105353](https://github.com/mythriekkaluri2005/copy-file/assets/150231422/6cfb0016-5fd0-43ec-8124-fad1874ebef2)
